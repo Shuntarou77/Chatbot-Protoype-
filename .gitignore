@@ -1,0 +1,14 @@
+# Composer dependencies
+vendor/
+*/vendor/
+
+# Temporary / Cache files
+storage/gemini_cache/
+*/storage/gemini_cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# Sensitive credentials & API keys
+config/config.php
+*/config/config.php
